@@ -85,7 +85,7 @@ ul li {
 }
 
 
-@media only screen and (max-width: 350px) {
+@media only screen and (max-width: 450px) {
     body{
         background-color:lightcyan;
         height: 100%;
@@ -169,7 +169,7 @@ ul li {
     .column{
         display: block;
         width: 50%;
-        margin-left: 10px;
+        margin: 55px;
     }
 
     .bold{
