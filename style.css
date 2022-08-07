@@ -177,3 +177,94 @@ ul li {
     }
 }
 
+@media only screen and (max-width: 450px) {
+    body{
+        background-color:lightcyan;
+        height: 100%;
+        margin: 0;
+        color: white;
+    }
+    header{
+        height: 200px;
+        padding: 20px 40px;
+        border-radius: 20px;
+        box-shadow: 0 4px 8px rgb(0 0 0 / 50%);
+        background: radial-gradient(circle at 17% 98%, #3a9396, #1b48df);
+        font-size: 20px;
+        font-weight: bold;
+        text-align: center;
+        font-family: 'georgia', arial, sans-serif;
+    }
+    footer{
+        height: 100px;
+        background: #fff;
+        padding: 20px 20px;
+        border-radius: 10px;
+        box-shadow: 0 2px 2px rgb(0 0 0 / 80%);
+        background: radial-gradient(circle at 10% 50%, #0ae4b4, #0e50dd);
+        font-size: 15px;
+    }
+    
+    ul {
+        list-style: none;
+        background: #fff;
+        padding: 20px 40px;
+        border-radius: 20px;
+        box-shadow: 0 4px 8px rgb(0 0 0 / 50%);
+        background: radial-gradient(circle at 17% 98%, #5f9ea0, #3661f0);
+        font-size: 20px;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        font-weight: bold;
+      }
+    
+    ul li {
+        float: left;
+        margin: 10px;
+      }
+    
+    .list {
+        -webkit-box-align: center !important;
+        -ms-flex-align: center !important;
+        align-items: center !important;
+        -webkit-box-pack: center !important;
+        -ms-flex-pack: center !important;
+        justify-content: center !important;
+        display: -webkit-box !important;
+        display: -ms-flexbox !important;
+        display: flex !important;
+        height: 100%;
+      }
+    
+    .child1 {
+        width: 40%;
+        float: left;
+        padding-bottom: 20px;
+        padding-left: 20px;
+    }
+    
+    .child2 {
+        width: 50%;
+        float: right;
+        padding-bottom: 50px;
+    }    
+    
+    .header{
+        margin: 10px 10px;
+    }
+
+    @media print {
+        .column {
+          break-after: always;
+        }
+    }
+    
+    .column{
+        display: block;
+        width: 50%;
+        margin-left: 10px;
+    }
+
+    .bold{
+        font-weight: 700;
+    }
+}
